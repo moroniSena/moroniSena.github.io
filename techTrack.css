@@ -1,0 +1,119 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+        padding: 0;
+        border: 0;
+        margin: 0;
+        font-weight: 100;
+        font-family: "helvetica Neue", Helvetica, sans-serif;
+}
+h1 {
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	font-size: 40px;
+	font-color: #FFFFFF;
+	font-weight: 100;
+}
+body {
+	background-image: url("TechTrack.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav ul {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -4px;
+    background-color: black;
+}
+.nav li {
+	display: inline;
+}
+.top {
+	background-color: rgba(0, 0, 0, 1);;
+	padding-top: 20px;
+	height: 300px;
+	color: white;
+	text-align: center;
+}
+.top img {
+	border-bottom: 1px solid white;
+}
+.btn {
+	height: 5rem;
+	width: 10rem;
+	margin-bottom: 20px;
+	font-weight: normal;
+	margin-left: 10px;
+	 background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.btn1 {
+	margin-left: 30rem;
+}
+.nav {
+	text-align: center;
+	background-color: black;
+	padding-top: 10px;
+}
+.btn:hover {
+	background-color: white;
+}
+.btn:active {
+	color: white;
+}	
+.contant {
+	text-align: center;
+	background-color: white;
+	width: 600px;
+	margin: 10px auto;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	line-height: 2;
+}
+.contant h2 {
+	border-bottom: 1px solid black;
+	width: 450px;
+	margin:0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.contant p {
+	padding: 20px;
+	border-bottom: 1px solid black;
+	width: 450px;
+	margin: 5px auto 5px auto;
+}
+.contant a {
+	color: black;
+}
+.contact a:hover {
+	color: #a6a6a6;
+	text-decoration: none;
+}
+.bottom {
+	height: 200px;
+	background-color: black;
+	color: white;
+}
+.bottom h4 {
+	float: right;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+.nav a {
+	color: white;
+	font-size: 24px;
+	padding-top: 12px;
+	float: right;
+	padding-right: 16px;
+}
+.nav a:hover {
+	color: #a6a6a6;
+}

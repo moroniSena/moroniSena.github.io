@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html ng-app="store" lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="techTrack.css" />
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript" src="newAngular.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+			<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="icon.ico" />
+	<title> Tech Track</title>
+</head>
+<body>
+	<section ng-controller="TabController as tab">
+		<!__the header__>
+			<div class="top">
+					<div class="header">
+						<img src="TeckTrack3.png">
+						<br>
+						<h3>Learn Code the Best Way</h3>
+					</div>
+					<!__ nav bar __>
+					<div class="nav" >
+						<div class="nav-bar">
+							<ul>
+								<li ng-class="{ active:tab.isSet(1) }"><button class="btn" type="button" ng-click="tab.setTab(1)">Home</button></li>
+								<li ng-class="{ active:tab.isSet(2) }"><button class="btn" type="button" ng-click="tab.setTab(2)">calender</button></li>
+								<li ng-class="{ active:tab.isSet(3) }"><button class="btn" type="button" ng-click="tab.setTab(3)">syllabus</button></li>
+								<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+			</div>	
+		<!__ who we are __>
+		<div class="contant">
+			<div ng-show="tab.isSet(1)">
+				<h2>Who We Are</h2>
+				<p class="para">		Here at tech track we learn about coding. We learn to be full stack developers. Once accepted into the program you go to your designated high school. You’ll meet at the high school for four days of the week(monday, tuesday, wednesday, thursday). You’ll need to be in class those days at 8:00 am and you’ll be there till 12:00 pm. Be sure to talk to your principal to see if you are eligible to apply. </p>
+				<h2>Important Changes</h2>
+				<p>We're excited to be off to a great start to TechTrack! We appreciate the enthusiasm and dedication that you have shown. We look forward to continuing to learn together this summer.
+			 
+				As we've gotten started this week, we've received feedback and questions from both students and mentors about the goals and structure of the TechTrack content. Thank you for your input! We've taken the feedback and we have improved the syllabus accordingly. Here are a few highlights:
+				 
+				On the first page of the syllabus, we've added some information to answer some common questions. Please read through that first page to find the goal of the course and what you're going to accomplish this summer, how the course content will be administered, tips for how to succeed in this program, and tools you will use in this course.
+				Each week's material has been refined to provide greater direction and focus.
+				A project has been added for each week so that you can put what you're learning to use.
+				We've decided to use Cloud9 as the code editor for TechTrack. Cloud9 is an online editor that will allow you to save files and work on them from any computer that has an internet connection. This will also allow us to run the programs we will need later this summer. If you have not already created an account with Cloud9, get one set up and start using it!
+				 
+				So what does this mean for you? Because the previous syllabus had much less structure, you may or may not have watched the courses for week 1. You also may have already watched courses that have been moved to week 2 or week 3. That's ok. What we'd like you to do is start with the material for week 1 and start from there. When you come across a course for week 1, or any other week, that you have already completed, you don't need to watch the course again (unless you decide you want to for a refresher). For any of the week 1 courses that you have not watched, start watching those courses. When you have finished the courses, then start on the project for week 1. Since the first week is already half-way over, do your best to complete week 1 before next Monday, but don't worry if you get stuck - we can keep working on it next week.
+				 
+				You can find the updated syllabus here: http://bit.ly/tech-track-syllabus-weeks-0-3
+				 
+				To reiterate - you need to immediately download and start using Cloud 9, especially if you are using Pluralsight content to use the editor to code as you learn.
+				 
+				We also have a great opportunity for peer collaboration. Our Orem campus has started a Google+ Community involving students who are in Tech Track. They have invited all students from all four campuses to join in on this if you like! It isn’t mandatory, but is a great way to see what your peers are working on, get help on problems, collaborate, and access resources. To access the Google+ Community we have set up in our class, go to the following link and click "ask to join". You do need to be using a Gmail account for it to work.
+				 
+				</p>
+				<a href="https://plus.google.com/communities/105182384677737556223
+ 				">https://plus.google.com/communities/105182384677737556223</a>
+			</div>
+		<!__ calender __>	
+			<div ng-show="tab.isSet(2)">
+			<img src="calender.PNG">
+			</div>
+		<!__ syllabus __>
+			<div ng-show="tab.isSet(3)">
+				<h2>Tech Track syllabus</h2>
+				<p class="syllabus">
+					Tech Track Students,
+
+					By now you should be done with the first five weeks of CS50, and have completed Front End Foundations with CodeSchool.  If you haven't, it's time to cram.
+
+					Here is what we'll be working on this week.  See you Monday, bright and early!
+
+					TechTrack Syllabus
+					 
+					Notes about the syllabus: the order is provided as a suggestion.  You can move through the courses in whichever sequence makes sense to you.  Just make sure that in the case of CodeSchool courses you are completing all challenges and earn the associated "Badge".  Also, feel free to move ahead if you are comfortable with what you have learned.
+
+					These abbreviations will be used:
+					 
+					PS = Pluralsight
+					CS = CodeSchool
+					 
+					If you need additional learning you can:
+					 
+					-See the section at the end of your CodeSchool Course called "Supplemental Learning" with a dropdown "Additional Resources."  Sometimes these will be prescribed but you can refer to them for additional learning.
+					 
+					-Search in Pluralsight for the topic you are interested in.
+					 
+					-Ask a Mentor for tips, tricks and help.
+					 
+					You will sometimes see a link to a "Pluralsight Learning Path" and then links to individual titles within that learning path.  The learning path functionality doesn't exist yet but is almost finished - you will be among the first to get access to this feature in the next week or two, in the meantime, click the link to each individual title.
+				</p>
+			</div>
+		</div>
+		<div class="bottom">
+			<h4>Contact us: techtrack@sieutah.org</h4>
+		</div>
+	</section>
+</body>
+</html>
