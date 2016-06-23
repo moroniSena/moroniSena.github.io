@@ -53,6 +53,7 @@ body {
     display: inline-block;
     font-size: 16px;
     border-radius: 2px;
+    -webkit-transition: all 0.5s;
 }
 .btn1 {
 	margin-left: 30rem;
