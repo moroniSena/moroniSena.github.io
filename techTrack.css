@@ -34,6 +34,7 @@ body {
 	height: 300px;
 	color: white;
 	text-align: center;
+	background-size: cover;
 }
 .top img {
 	border-bottom: 1px solid white;
@@ -101,6 +102,7 @@ body {
 	height: 200px;
 	background-color: black;
 	color: white;
+	background-size: cover;
 }
 .bottom h4 {
 	float: right;
