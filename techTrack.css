@@ -34,7 +34,7 @@ body {
 	height: 300px;
 	color: white;
 	text-align: center;
-	background-size: cover;
+	background-size: inherit;
 }
 .top img {
 	border-bottom: 1px solid white;
@@ -43,7 +43,7 @@ body {
 	height: 5rem;
 	width: 10rem;
 	margin-bottom: 20px;
-	font-weight: normal;
+	font-weight: 300;
 	margin-left: 10px;
 	 background-color: black; 
     border: none;
@@ -77,6 +77,7 @@ body {
 	padding-top: 20px;
 	padding-bottom: 10px;
 	line-height: 2;
+	background-size: cover;
 }
 .contant h2 {
 	border-bottom: 1px solid black;
