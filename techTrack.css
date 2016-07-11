@@ -4,6 +4,7 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
         margin: 0;
         font-weight: 100;
         font-family: "helvetica Neue", Helvetica, sans-serif;
+        overflow-x: hidden;
 }
 h1 {
 	text-align: center;
@@ -12,6 +13,7 @@ h1 {
 	font-size: 40px;
 	font-color: #FFFFFF;
 	font-weight: 100;
+
 }
 body {
 	background-image: url("TechTrack.jpg");
@@ -72,7 +74,7 @@ body {
 .contant {
 	text-align: center;
 	background-color: white;
-	width: 600px;
+	width: 53.06%;
 	margin: 10px auto;
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -81,19 +83,25 @@ body {
 }
 .contant h2 {
 	border-bottom: 1px solid black;
-	width: 450px;
+	width: 57.04%;
 	margin:0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.contant p {
+.contant p{
 	padding: 20px;
 	border-bottom: 1px solid black;
-	width: 450px;
+	width: 70.04%;
 	margin: 5px auto 5px auto;
+}
+.changes {
+	height: 37.5em !important;
 }
 .contant a {
 	color: black;
+}
+.contant img {
+	width:58.66%;
 }
 .contact a:hover {
 	color: #a6a6a6;
